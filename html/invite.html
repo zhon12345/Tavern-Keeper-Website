@@ -8,22 +8,18 @@
   <link rel="stylesheet" href="../css/invite.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-  <header>
-    <div class="logo-container">
-      <img src="../assets/logo.png" width="45px">
-      <h4 class="logo">Tavern Keeper</h4>
-    </div>
-    <nav>
-      <ul class="nav-links">
-        <li><a class="nav-link" href="../index.html">Home</a></li>
-        <li><a class="nav-link" href="commands.html">Commands</a></li>
-        <li><a class="nav-link" href="https://discord.gg/WS3GthM">Support</a></li>
-        <li><a class="nav-link active" href="invite.html">Invite</a></li>
-        <li><a class="nav-link" href="about.html">About</a></li>
-      </ul>
-    </nav>
+  <header class="header">
+    <a href="../index.html" class="logo"><img src="../assets/logo.png"/> Tavern Keeper</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="commands.html">Commands</a></li>
+      <li><a href="https://discord.gg/WS3GthM">Support</a></li>
+      <li><a class="active" href="invite.html">Invite</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
   </header>
   <main>
     <section class="presentation">
