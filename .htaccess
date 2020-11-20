@@ -1,0 +1,8 @@
+RewriteEngine On 
+
+# Force http to https
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# Redirect Error 404
+ErrorDocument 404 http://tavernkeeper.ml/unknown.html
